@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'DepartureMonoNerdFont-Regular';
+	src: url('fonts/DepartureMonoNerdFont-Regular.otf') format('opentype');
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'DepartureMonoNerdFont-Regular';
+	height: 100vh;
+	width: 100vw;
+	background: #18354c;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-size: 8rem;
+	font-weight: 900;
+	color: #ffc107;
+	text-transform: uppercase;
+}
